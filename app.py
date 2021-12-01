@@ -1,5 +1,5 @@
 import pickle
-
+from pymongo import MongoClient
 from flask import Flask, render_template, request, url_for,Response
 from bs4 import BeautifulSoup
 import numpy as np
