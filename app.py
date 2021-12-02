@@ -13,7 +13,7 @@ import re
 import pymongo
 import json
 
-from pymongo import MongoCli
+from pymongo import MongoClient
 # Mongodb database connection
 
 
