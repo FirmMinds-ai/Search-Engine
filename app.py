@@ -247,10 +247,10 @@ def search() :
         print(s1)
         t = [x[0] for x in s1]
         print(t)
-        if len(t) <= 2 :
+        if len(t) <= 5 :
             pass
         else :
-            t = t[0:3]
+            t = t[0:5]
 
         artd = []
         for x in t :
