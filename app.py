@@ -17,7 +17,7 @@ import json
 # Mongodb database connection
 
 
-cluster = MongoClient("mongodb+srv://ajay:ajay@cluster0.60jsd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+cluster = MongoClient("mongodb+srv://nikhil:<nikhil>@cluster0.0kyus.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 print(cluster["search_engine"])
 print("@@@@@@@@@@@@@@@@@@@@@")
