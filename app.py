@@ -286,7 +286,7 @@ def search() :
 
 
 
-        return jsonify({"Matched Documents Ids":k,"Related Documents Ids":rtd,"Matched Documents":docs1,"Related Documents":docs2})
+        return jsonify({"Matched Documents":docs1,"Related Documents":docs2})
 
 
 @app.route('/document_slug',methods = ['GET'])
