@@ -4,6 +4,7 @@ from flask import Flask, render_template, request, url_for,Response
 from bs4 import BeautifulSoup
 import numpy as np
 from flask import jsonify
+from pymongo import MongoCli
 # initiate flask
 app = Flask(__name__)
 import re
