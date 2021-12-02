@@ -244,7 +244,9 @@ def search() :
                 tagdict[item] = 1
 
         s1 = sorted(tagdict.items(), key=lambda x: x[1], reverse=True)
-        t = [x[0] for x in s]
+        print(s1)
+        t = [x[0] for x in s1]
+        print(t)
         if len(t) <= 2 :
             pass
         else :
