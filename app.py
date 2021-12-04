@@ -313,9 +313,11 @@ def documentslug() :
         for x in tokens :
             s = s + x +"-"
 
+        if document_slug[-1] == "-":
+            return jsonify({"document_slug":s})
+        else:
 
-
-        return jsonify({"document_slug":s[:-1]})
+            return jsonify({"document_slug":s[:-1]})
 
 
 
